@@ -16,11 +16,10 @@ https://cloudsign.jdcloud-api.com/v1/evidence:evidenceMultisave
 |---|---|---|---|---|
 |**businessId**|String|True| |业务流水号|
 |**file**|String|True| |存证数据json字符串的Base64|
-|**businessCode**|String|True| |证据链代码|
-|**token**|String|False| |业务token|
-|**lender**|String|False| |资方信息（借钱传：ZY；票据传 PJ_SHOUXIN--授信,PJ_JIEKUAN--借款）|
+|**businessCode**|String|False| |证据链代码|
+|**lender**|String|False| |资方信息|
 |**messageId**|String|False| |请求流水号|
-|**evidenceType**|String|False| |业务类型（JIEQIAN–借钱；PIAOJU--票据）|
+|**evidenceType**|String|False| |业务类型|
 |**messageDate**|String|False| |请求时间|
 
 
